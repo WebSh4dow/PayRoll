@@ -13,11 +13,11 @@
 - Java 17.0.0
 
 # Ambiente de desenvolvimento
--Linux: Ubuntu LTS
--NodeJs: versão 14.x.x
+- Linux: Ubuntu LTS
+- NodeJs: versão 14.x.x
 
 # Iterface de desenvolvimento usada!
--Intellij (Criação Do backend Em Spring Boot)
+- Intellij (Criação Do backend Em Spring Boot)
 - VsCode (Criacação Do FrontEnd Em Angular.js)
 
 # Como Testar EndPoints do Backend!
@@ -31,21 +31,21 @@
 
 - Get Response:
 
-  "id": 1,
-  "nome": "Marcia Nunes Ribeiro",
-  "idade": 20
+  - "id": 1,
+  - "nome": "Marcia Nunes Ribeiro",
+  - "idade": 20
     
-   "id": 4,
-   "nome": "Julia Lima Melo",
-   "idade": 18
+   -"id": 4,
+    -"nome": "Julia Lima Melo",
+   - "idade": 18
     
-   "id": 5,
-   "nome": "João Lucas Dutra ",
-   "idade": 18
+   - "id": 5,
+    - "nome": "João Lucas Dutra ",
+    - "idade": 18
     
-   "id": 6,
-   "nome": "Karla Marques",
-   "idade": 22
+   - "id": 6,
+    - "nome": "Karla Marques",
+    - "idade": 22
    
    # Como Configurar o Front End !
    - acesse via terminal linux a pasta FrontEnd presente no Projeto, abra a  pasta chamada Managers localizada dentro da Pasta FrontEnd
@@ -89,11 +89,11 @@
    
    - Desenvolvimento do Frontend!
 
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front.png)
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front2.png)
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front3.png)
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front4.png)
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front5.png)
-   ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front6.png)
+  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front.png)
+  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front2.png)
+  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front3.png)
+  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front4.png)
+ - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front5.png)
+  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front6.png)
    
      
