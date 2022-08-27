@@ -1,0 +1,28 @@
+<div class = "row">
+    <h2>Dependente</h2>
+    <router-outlet></router-outlet>
+    
+</div>
+
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Nome Completo</th>
+            <th>Idade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let dp of dependente" >
+            <td> {{ dp.id }} </td>
+            <td> {{ dp.nome }} </td>
+            <td> {{ dp.idade }} </td>
+            <td>
+                <button (click) = "dependeteUpdate(dp.id)" class = "btn btn-primary"> Atualizar</button>
+                <button (click) = "dependeteDelete(dp.id)" class = "btn btn-danger"   style="margin-left: 10px"> Remover</button>
+                <button (click) = "dependeteDetails(dp.id)" class = "btn btn-primary" style="margin-left: 10px"> Ver Detalhes</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

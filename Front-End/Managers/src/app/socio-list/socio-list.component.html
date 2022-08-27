@@ -1,0 +1,30 @@
+<div class = "row">
+    <h2> Associados</h2>
+    <router-outlet></router-outlet>
+    
+</div>
+
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> id</th>
+            <th> Nome Completo </th>
+            <th> Renda</th>
+            <th> Ativo</th>
+            <th> Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let socio of socios" >
+            <td> {{ socio.id }} </td>
+            <td> {{ socio.nome }} </td>
+            <td> {{ socio.renda }} </td>
+            <td> {{ socio.ativo }} </td>
+            <td>
+                <button (click) = "socioUpdate(socio.id)" class = "btn btn-primary"> Atualizar</button>
+                <button (click) = "socioDelete(socio.id)" class = "btn btn-danger"   style="margin-left: 10px"> Remover</button>
+                <button (click) = "socioDetails(socio.id)" class = "btn btn-primary" style="margin-left: 10px"> Ver Detalhes</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

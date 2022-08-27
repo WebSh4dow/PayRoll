@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="card col-md-6 offset-md-3 offset-md-3">
+        <div class="row">
+            <h3 class="text-center"> Atualizar Sócio </h3>
+            <hr />
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+                  
+                    <div class="form-group">
+                        <label> Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" [(ngModel)]="socio.nome"
+                            name="nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Renda</label>
+                        <input type="text" class="form-control" id="renda" [(ngModel)]="socio.renda"
+                            name="renda">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Ativo</label>
+                        <input type="text" class="form-control" id="ativo" [(ngModel)]="socio.ativo"
+                            name="ativo">
+                    </div>
+
+                    <br />
+                    <button class="btn btn-success" type="submit">Atualizar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

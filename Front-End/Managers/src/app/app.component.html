@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink="socios" routerLinkActive="active" class="nav-link" > Listar Socios</a>
+        </li>
+        <li class = "nav-item">
+          <a routerLink="dependentes" routerLinkActive="active" class="nav-link" > Listar Dependentes</a>
+      </li>
+        <li class = "nav-item">
+            <a routerLink="create-socio" routerLinkActive="active" class="nav-link" >Adcionar Socios </a>
+        </li>
+        <li class = "nav-item">
+          <a routerLink="create-dependente" routerLinkActive="active" class="nav-link" >Adcionar Dependetes </a>
+      </li>
+    </ul>
+  </nav>
+  
+  <h1 class="text-center"> {{title}} </h1>
+  <div class = "container">
+    <router-outlet></router-outlet>
+  </div>
+  <footer class = "footer">
+    <div class = "container">
+        <span>All Rights Reserved 2022 @JarmisonPaiva</span>
+    </div>
+  </footer>
