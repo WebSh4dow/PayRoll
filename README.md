@@ -31,21 +31,21 @@
 
 - Get Response:
 
-  - "id": 1,
-  - "nome": "Marcia Nunes Ribeiro",
-  - "idade": 20
+    "id": 1,
+    "nome": "Marcia Nunes Ribeiro",
+   "idade": 20
+     
+    "id": 4,
+    "nome": "Julia Lima Melo",
+    "idade": 18
     
-   -"id": 4,
-    -"nome": "Julia Lima Melo",
-   - "idade": 18
+    "id": 5,
+    "nome": "João Lucas Dutra ",
+    "idade": 18
     
-   - "id": 5,
-    - "nome": "João Lucas Dutra ",
-    - "idade": 18
-    
-   - "id": 6,
-    - "nome": "Karla Marques",
-    - "idade": 22
+     "id": 6,
+     "nome": "Karla Marques",
+     "idade": 22
    
    # Como Configurar o Front End !
    - acesse via terminal linux a pasta FrontEnd presente no Projeto, abra a  pasta chamada Managers localizada dentro da Pasta FrontEnd
@@ -76,7 +76,7 @@
    - Form para atualizar Dependentes
    ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/Captura%20de%20tela%20de%202022-08-27%2017-18-49.png)
   
-    - Aba para visualizar detalhes dos Associados (Possuindo Também para Dependentes na aba de dependentes cadastrados no sistema)
+    - Aba para visualizar detalhes dos Associados
     ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/Captura%20de%20tela%20de%202022-08-27%2017-18-41.png)
     
    - Desenvolvimento do Backend!
@@ -88,8 +88,7 @@
    
    
    - Desenvolvimento do Frontend!
-
-  - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front.png)
+    ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front.png)
   - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front2.png)
   - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front3.png)
   - ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/front4.png)
