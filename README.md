@@ -48,9 +48,9 @@
    "idade": 22
    
    # Como Configurar o Front End !
-   - acesse vai terminal a pasta FrontEnd presente no Projeto, e abra outra pasta presente dentro do FrontEnd chamada Managers
+   - acesse via terminal linux a pasta FrontEnd presente no Projeto, abra a  pasta chamada Managers localizada dentro da Pasta FrontEnd
  
-   # digite o seguintes comandos:
+   - digite o seguintes comandos:
 
    - snap install nodejs
    - npm install 
