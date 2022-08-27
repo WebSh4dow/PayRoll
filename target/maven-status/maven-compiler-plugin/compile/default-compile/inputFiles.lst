@@ -1,0 +1,15 @@
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/DTO/SocioDTO.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Controller/ControllerDependente.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/ConfigBeans/CorsConfiguration.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Entity/Socio.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Repository/SocioRepository.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/ConfigBeans/ModelMapperConfig.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/DTO/DependenteDTO.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Service/SocioServico.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Service/DependenteServico.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Exceptions/DependenteException.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Controller/ControllerSocio.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Application.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Exceptions/SocioException.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Repository/DepedenteRepository.java
+/home/youx/Downloads/Desafio.Npi.Tecnologia/src/main/java/com/Jarmison/Desafio/Npi/Tecnologia/Entity/Dependente.java
