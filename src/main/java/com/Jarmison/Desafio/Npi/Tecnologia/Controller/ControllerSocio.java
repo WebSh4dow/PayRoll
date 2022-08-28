@@ -27,8 +27,8 @@ public class ControllerSocio {
         return socioServico.findByid(id);
     }
     @DeleteMapping(value = "/{sociosid}")
-    public SocioDTO remover_Socio_Por_id(@PathVariable("sociosid")Long id, @RequestBody SocioDTO socioDTO){
-        return socioServico.remover(id,socioDTO);
+    public ResponseEntity<Object> remover_Socio_Por_id(@PathVariable("sociosid")Long id){
+        return socioServico.remover(id);
     }
     @PutMapping(value = "/{sociosid}")
     public SocioDTO atualizar_Socio_Por_id(@PathVariable("sociosid")Long id, @RequestBody SocioDTO socioDTO){
