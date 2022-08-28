@@ -2,6 +2,7 @@ package com.Jarmison.Desafio.Npi.Tecnologia.Service;
 
 import com.Jarmison.Desafio.Npi.Tecnologia.DTO.DependenteDTO;
 import com.Jarmison.Desafio.Npi.Tecnologia.Entity.Dependente;
+import org.springframework.http.ResponseEntity;
 import com.Jarmison.Desafio.Npi.Tecnologia.Exceptions.DependenteException;
 import com.Jarmison.Desafio.Npi.Tecnologia.Repository.DepedenteRepository;
 import org.modelmapper.ModelMapper;
