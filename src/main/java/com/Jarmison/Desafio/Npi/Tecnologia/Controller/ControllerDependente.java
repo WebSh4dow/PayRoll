@@ -1,6 +1,7 @@
 package com.Jarmison.Desafio.Npi.Tecnologia.Controller;
 
 import com.Jarmison.Desafio.Npi.Tecnologia.DTO.DependenteDTO;
+import org.springframework.http.ResponseEntity;
 import com.Jarmison.Desafio.Npi.Tecnologia.Service.DependenteServico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
