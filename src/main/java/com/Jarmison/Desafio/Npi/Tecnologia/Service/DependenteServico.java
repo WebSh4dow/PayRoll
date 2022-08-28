@@ -61,12 +61,11 @@ public class DependenteServico {
                 }).orElseThrow(()-> new DependenteException(String.format(NOT_FOUND_EXCEPTION_HANDLER)+id));
     }
 
-    public DependenteDTO remover(Long id, DependenteDTO dependenteDTO){
-        return depedenteRepository.findById(id)
-                .map(remover_dependente -> {
-                    Dependente dependente = convert_Dto_To_Entity(dependenteDTO);
-                    depedenteRepository.deleteById(id);
-                    return convert_Entity_To_Dto(dependente);
-                } ).orElseThrow(()-> new DependenteException(String.format(NOT_FOUND_EXCEPTION_HANDLER)+id));
+    public ResponseEntity<Object> remover(Long id){
+                return depedenteRepository.findById(id)
+                .map(removeObject -> {
+                 depedenteRepository.deleteById(id);
+                 return ResponseEntity.noContent().build();
+                }).orElseThrow(()-> new DependenteException(String.format(NOT_FOUND_EXCEPTION_HANDLER)+id));
     }
 }
