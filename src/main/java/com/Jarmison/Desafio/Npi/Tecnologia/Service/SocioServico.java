@@ -62,12 +62,11 @@ public class SocioServico {
 
                 }).orElseThrow(()-> new DependenteException(String.format(NOT_FOUND_EXCEPTION_HANDLER)+id));
     }
-    public SocioDTO remover(Long id, SocioDTO socioDTO){
-        return socioRepository.findById(id)
+     public ResponseEntity<Object> remover(Long id){
+                 return socioRepository.findById(id)
                 .map(remover_socio -> {
-                    Socio socio = convert_Dto_To_Entity(socioDTO);
                     socioRepository.deleteById(id);
-                    return convert_Entity_To_Dto(socio);
+                    return ResponseEntity.noContent().build();
                 } ).orElseThrow(()-> new DependenteException(String.format(NOT_FOUND_EXCEPTION_HANDLER)+id));
     }
 }
