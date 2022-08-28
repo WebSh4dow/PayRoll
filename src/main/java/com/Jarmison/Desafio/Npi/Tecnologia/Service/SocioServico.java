@@ -2,6 +2,7 @@ package com.Jarmison.Desafio.Npi.Tecnologia.Service;
 
 import com.Jarmison.Desafio.Npi.Tecnologia.DTO.SocioDTO;
 import com.Jarmison.Desafio.Npi.Tecnologia.Entity.Socio;
+import org.springframework.http.ResponseEntity;
 import com.Jarmison.Desafio.Npi.Tecnologia.Exceptions.DependenteException;
 import com.Jarmison.Desafio.Npi.Tecnologia.Exceptions.SocioException;
 import com.Jarmison.Desafio.Npi.Tecnologia.Repository.SocioRepository;
