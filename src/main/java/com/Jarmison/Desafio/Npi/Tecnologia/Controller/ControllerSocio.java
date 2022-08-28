@@ -1,6 +1,7 @@
 package com.Jarmison.Desafio.Npi.Tecnologia.Controller;
 
 import com.Jarmison.Desafio.Npi.Tecnologia.DTO.SocioDTO;
+import org.springframework.http.ResponseEntity;
 import com.Jarmison.Desafio.Npi.Tecnologia.Service.SocioServico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
