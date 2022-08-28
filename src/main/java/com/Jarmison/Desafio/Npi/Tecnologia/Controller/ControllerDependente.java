@@ -28,8 +28,8 @@ public class ControllerDependente {
         return dependenteServico.findByid(id);
     }
     @DeleteMapping(value = "/{dependentesid}")
-    public DependenteDTO remover_Dependentes_Por_id(@PathVariable("dependentesid")Long id, @RequestBody DependenteDTO dependenteDTO){
-        return dependenteServico.remover(id,dependenteDTO);
+    public ResponseEntity<Object> remover_Dependentes_Por_id(@PathVariable("dependentesid")Long id){
+        return dependenteServico.remover(id);
     }
     @PutMapping(value = "/{dependentesid}")
     public DependenteDTO atualizar_Dependentes_Por_id(@PathVariable("dependentesid")Long id, @RequestBody DependenteDTO dependenteDTO){
