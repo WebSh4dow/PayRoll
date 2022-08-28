@@ -1,7 +1,7 @@
 # TESTE NPI TECNOLOGIA: SISTEMA PARA CADASTRO DE SÓCIOS E DEPENDENTES
 
 # Tecnologias usadas:
-- Angular js
+- Angular
 - Maven
 - Bootstrap
 - Npm
@@ -57,6 +57,13 @@
    - sudo npm install -g @angular/cli
    - ng serve (para rodar a aplicação Front End)
    - É importante carregar o Backend Para Carregar os dados do Front end
+   
+    # Acesso ao Front-End
+   - http://localhost:4200/socios => acessar a pagina princcipal do sistema
+   
+   # Acesso aos EndPoints do Backend Java Spring Boot
+   - http://localhost:8090/socios => acessar os recursos de socios como listar,atualizar,cadastrar e remover
+   - http://localhost:8090/dependentes => acessar os recursos de dependentes como listar,atualizar,cadastrar e remover
    
    - Aba De Associados
    ![alt text](https://github.com/FireXtz/img-NPI-TESTE/blob/main/Captura%20de%20tela%20de%202022-08-27%2017-16-27.png)
