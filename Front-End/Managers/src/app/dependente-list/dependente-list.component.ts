@@ -27,7 +27,7 @@ export class DependenteListComponent implements OnInit{
         this.router.navigate(['update-dependetes',id])
     }
     dependeteDelete(id:number){
-        this.dependente.splice(this.dependente.findIndex(fix_cache => fix_cache.id === id),1);
+        this.dependente.splice(this.dependente.findIndex(fix_index => fix_index.id === id),1);
         this.dependenteService.deleteDependenteByid(id).subscribe();
     }
     ngOnInit(): void {
