@@ -1,4 +1,4 @@
-# TESTE NPI TECNOLOGIA: SISTEMA PARA CADASTRO DE SÓCIOS E DEPENDENTES
+# Sistema para Folha de pagamentos 
 
 # Tecnologias usadas:
 - Angular
