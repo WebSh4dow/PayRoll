@@ -1,4 +1,4 @@
-# Sistema para Folha de pagamentos 
+# Sistema para folha de pagamento
 
 # Tecnologias usadas:
 - Angular
